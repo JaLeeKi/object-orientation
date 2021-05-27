@@ -30,14 +30,14 @@ let dog = {
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
-// console.log(dog.name);
+console.log(dog.name);
 
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
-// console.log(dog['color']);
+console.log(dog['color']);
 
 
 
@@ -121,7 +121,7 @@ class Cat {
 
 const dimitri = new Cat('Dimitri', 7, 'Gray');
 
-// console.log(dimitri.name);
+console.log(dimitri.name);
 
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
@@ -146,7 +146,7 @@ class Wizard {
 
 const harry = new Wizard('Harry Potter', 46, 'Expelliarmus')
 
-// harry.castSpell();
+harry.castSpell();
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 /*
@@ -215,7 +215,7 @@ let phone3 = new Phone('Apple', 'iPhone 11', 250, 'Black', 499);
 
 phone1.changePrice(1015);
 
-// console.log(phone1);
+console.log(phone1);
 
 
 /*
@@ -224,9 +224,9 @@ phone1.changePrice(1015);
   Print the value of that phone's sell property to make sure it's been changed to true
 */
 
-// phone2.sell();
+phone2.sell();
 
-// console.log(phone2);
+console.log(phone2);
 
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
@@ -277,7 +277,7 @@ let helensInfo = {...contactInfo, ...shippingInfo};
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
-// console.log(helensInfo);
+console.log(helensInfo);
 
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
@@ -340,7 +340,7 @@ let myFirstMotorcycle = new Motorcycle(2, 'Black', 7468, 'Ducatti', true);
   Call the move function on myFirstMotorcycle (don't forget the parameter)
 */
 
-// myFirstVehicle.move(7468);
+myFirstVehicle.move(7468);
 
 
 /*
